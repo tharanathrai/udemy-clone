@@ -1,0 +1,64 @@
+.topics {
+  margin-top: 50px;
+  display: block;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #f7f9fa;
+}
+
+.topics h2 {
+  font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto,
+    segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 1.4rem;
+}
+
+.trending-topics {
+  display: flex;
+  vertical-align: middle;
+}
+
+.trending-topics a {
+  font-weight: 700;
+  color: #5624d0;
+  margin-bottom: 0;
+}
+
+.trending-topics p {
+  color: #6a6f73;
+  font-size: 0.9rem;
+}
+
+.topic-column {
+  flex-basis: 25%;
+}
+
+.topic-row {
+  margin-bottom: 30px;
+}
+
+.topics button {
+  color: #1c1d1f;
+  background-color: transparent;
+  border: 1px solid #1c1d1f;
+  height: 2.4rem;
+  position: relative;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  display: inline-flex;
+  min-width: 4rem;
+  padding: 0 1.2rem;
+  font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto,
+    segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02rem;
+  font-size: 0.9rem;
+}

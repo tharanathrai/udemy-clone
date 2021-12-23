@@ -1,0 +1,57 @@
+.billboard-container {
+  padding-left: 15%;
+  padding-right: 15%;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  grid-auto-columns: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.billboard-image {
+  width: 1340px;
+  height: 400px;
+}
+
+.billboard-content {
+  position: absolute;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  padding: 0.2rem 1.2rem 0.2rem;
+  left: 20rem;
+  top: 7rem;
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.billboard-content h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol;
+  font-weight: 700;
+  font-size: 2.1rem;
+  line-height: 1.25;
+  letter-spacing: -0.05rem;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-bottom: 0;
+}
+
+.billboard-content p {
+  font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 1.2rem;
+  text-overflow: ellipsis;
+  max-width: 80rem;
+  white-space: normal;
+  margin-top: 0;
+  padding-top: 0;
+}

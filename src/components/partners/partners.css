@@ -1,0 +1,36 @@
+.partners-container {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20%;
+  padding-right: 20%;
+  background: #f7f9fa;
+  align-items: center;
+  text-align: center;
+}
+.partners {
+  padding-bottom: 50px;
+  padding-top: 10px;
+  margin: auto;
+}
+
+.partner-logos {
+  display: flex;
+  width: 100%;
+  max-width: 134rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2.4rem;
+  padding-left: 2.4rem;
+}
+
+.partners-container h3 {
+  font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  letter-spacing: -0.05rem;
+  max-width: 60rem;
+  text-align: center;
+}
