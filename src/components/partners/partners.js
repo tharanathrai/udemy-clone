@@ -1,9 +1,9 @@
 import React from "react";
-import Nasdaq from "/Users/tharanath/udemy-project/src/img/nasdaq-dark.svg";
-import Volkswagen from "/Users/tharanath/udemy-project/src/img/volkswagen-dark.svg";
-import Box from "/Users/tharanath/udemy-project/src/img/box-dark.svg";
-import Netflix from "/Users/tharanath/udemy-project/src/img/netflix-dark.svg";
-import Eventbrite from "/Users/tharanath/udemy-project/src/img/eventbrite-dark.svg";
+import Nasdaq from "../../img/nasdaq-dark.svg";
+import Volkswagen from "../../img/volkswagen-dark.svg";
+import Box from "../../img/box-dark.svg";
+import Netflix from "../../img/netflix-dark.svg";
+import Eventbrite from "../../img/eventbrite-dark.svg";
 import "./partners.css";
 
 const Partners = () => {
