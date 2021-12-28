@@ -8,12 +8,16 @@ import UdemyBusiness from "./components/udemyBusiness/udemyBusiness";
 import ChangeLife from "./components/changeLife/changeLife";
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
+import TabbedNavigation from "./components/tabbedNavigation/tabbedNavigation";
+import AlsoLearning from "./components/alsoLearning/alsoLearning";
 
 function App() {
   return (
     <div>
       <Header></Header>
       <ContentBanner></ContentBanner>
+      <TabbedNavigation></TabbedNavigation>
+      <AlsoLearning></AlsoLearning>
       <TopCategories></TopCategories>
       <Topics></Topics>
       <Instructor></Instructor>

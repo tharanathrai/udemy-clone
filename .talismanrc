@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: src/components/tabbedNavigation/data.json
+  checksum: f46ea3f734a410676304dce21823c4e99f37f5fc869087852a5cb081f166fb60
+version: ""

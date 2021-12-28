@@ -1,0 +1,139 @@
+/* Style the tab */
+.tab {
+  overflow: hidden;
+}
+
+.tab-nav-metadata {
+  margin-top: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.tab-nav-metadata h1 {
+  font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.25;
+  letter-spacing: -0.05rem;
+  max-width: 60rem;
+  margin-bottom: 0;
+}
+
+.tab-nav-metadata p {
+  display: block;
+  font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(122, 121, 121);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  border: 1px solid rgb(210, 210, 210);
+  padding-left: 20px;
+}
+
+.tabcontent p {
+  font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  max-width: 900px;
+}
+
+.tabcontent h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  letter-spacing: -0.05rem;
+  max-width: 60rem;
+  margin-bottom: 0;
+}
+
+.tab-nav-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.tabcontent button {
+  background-color: transparent;
+  border: 1px solid #1c1d1f;
+  height: 2.5rem;
+  min-width: 7rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  color: #1c1d1f;
+}
+
+/* Create an active/current tablink class */
+.tab button:focus {
+  color: #1c1d1f;
+}
+
+.course-wrapper {
+  padding: 20px;
+  padding-left: 0;
+}
+
+.course-container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.course-description p {
+  margin-top: 0px;
+  font-size: 0.8rem;
+  color: rgb(122, 121, 121);
+}
+
+.course-description h3 {
+  font-size: 1rem;
+  max-width: 20rem;
+  margin-bottom: 0;
+}
+
+.course-wrapper img {
+  margin-bottom: 0;
+}

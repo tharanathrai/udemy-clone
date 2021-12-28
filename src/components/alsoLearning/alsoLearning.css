@@ -1,0 +1,33 @@
+.also-learning-section {
+  margin-top: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.course-wrapper {
+  padding: 20px;
+  padding-left: 0;
+}
+
+.course-container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.course-description p {
+  margin-top: 0px;
+  font-size: 0.8rem;
+  color: rgb(122, 121, 121);
+}
+
+.course-description h3 {
+  font-size: 1rem;
+  max-width: 20rem;
+  margin-bottom: 0;
+}
+
+.course-wrapper img {
+  margin-bottom: 0;
+}
