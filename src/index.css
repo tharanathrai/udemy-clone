@@ -15,3 +15,30 @@ code {
 div {
   margin: 10 100 10;
 }
+
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+.rec.rec-arrow:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.rec.rec-arrow:active {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.rec.rec-arrow:focus {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.rec.rec-arrow {
+  color: white;
+  background-color: #1c1d1f;
+}

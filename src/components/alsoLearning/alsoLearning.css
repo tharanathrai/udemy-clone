@@ -12,8 +12,8 @@
 .course-container {
   margin-top: 10px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  max-width: 50%;
 }
 
 .course-description p {

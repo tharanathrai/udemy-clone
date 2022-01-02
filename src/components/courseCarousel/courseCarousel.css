@@ -1,0 +1,29 @@
+.carousel-courses-section {
+  margin-top: 50px;
+  padding-left: 12%;
+  padding-right: 20%;
+}
+
+.carousel-courses-wrapper {
+  padding: 10px;
+}
+
+.carousel-courses-wrapper p {
+  margin-top: 0px;
+  font-size: 0.8rem;
+  color: rgb(122, 121, 121);
+}
+
+.carousel-courses-wrapper h3 {
+  font-size: 1rem;
+  max-width: 20rem;
+  margin-bottom: 0;
+}
+
+.carousel-courses-wrapper img {
+  margin-bottom: 0;
+}
+
+.carousel-courses-section h2 {
+  padding-left: 50px;
+}

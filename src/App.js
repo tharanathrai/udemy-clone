@@ -10,6 +10,7 @@ import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
 import TabbedNavigation from "./components/tabbedNavigation/tabbedNavigation";
 import AlsoLearning from "./components/alsoLearning/alsoLearning";
+import CourseCarousel from "./components/courseCarousel/courseCarousel";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Header></Header>
       <ContentBanner></ContentBanner>
       <TabbedNavigation></TabbedNavigation>
-      <AlsoLearning></AlsoLearning>
+      <CourseCarousel></CourseCarousel>
       <TopCategories></TopCategories>
       <Topics></Topics>
       <Instructor></Instructor>

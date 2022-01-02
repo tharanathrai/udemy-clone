@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Courses from "../tabbedNavigation/data.json";
 import "./alsoLearning.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const CourseComp = (props) => {
   return (
