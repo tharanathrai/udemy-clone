@@ -4,7 +4,7 @@ import "./udemyBusiness.css";
 const UdemyBusiness = () => {
   return (
     <div class="business-cta-wrapper">
-      <div class="business-cta content">
+      <div class="business-cta content" id="logo">
         <img
           src="https://www.udemy.com/staticx/udemy/images/v7/logo-ub.svg"
           width="282"
