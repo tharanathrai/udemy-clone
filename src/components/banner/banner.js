@@ -6,9 +6,9 @@ const ContentBanner = () => {
     <div class="billboard-container">
       <div class="billboard-image">
         <img
+          alt=""
           width="1340"
           height="400"
-          alt=""
           src="https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/db24b94e-d190-4d5a-b1dd-958f702cc8f5.jpg"
         />
         <div class="billboard-content">
