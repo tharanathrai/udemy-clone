@@ -6,6 +6,45 @@
   padding-right: 25%;
 }
 
+@media (max-width: 770px) {
+  .change-life-cta-wrapper {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+
+  .change-life-cta {
+    flex: 1;
+    width: 100%;
+    margin: auto;
+    vertical-align: middle;
+    position: relative;
+  }
+
+  .change-life-cta img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .change-life-cta:first-child {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  .change-life-cta-wrapper {
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+  }
+
+  .change-life-cta:first-child {
+    margin-left: 0px;
+  }
+}
+
 .change-life-cta {
   flex: 1;
   width: 500px;
