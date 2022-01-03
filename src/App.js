@@ -11,10 +11,12 @@ import Header from "./components/header/header";
 import TabbedNavigation from "./components/tabbedNavigation/tabbedNavigation";
 import AlsoLearning from "./components/alsoLearning/alsoLearning";
 import CourseCarousel from "./components/courseCarousel/courseCarousel";
+import MiniHeader from "./components/miniHeader/miniHeader";
 
 function App() {
   return (
     <div>
+      <MiniHeader></MiniHeader>
       <Header></Header>
       <ContentBanner></ContentBanner>
       <TabbedNavigation></TabbedNavigation>

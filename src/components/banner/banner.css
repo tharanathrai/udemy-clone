@@ -55,3 +55,32 @@
   margin-top: 0;
   padding-top: 0;
 }
+
+@media (max-width: 770px) {
+  .billboard-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .billboard-image {
+    height: 220px;
+  }
+  .billboard-image img {
+    width: 76%;
+    height: 200px;
+  }
+
+  .billboard-content {
+    left: 1rem;
+    top: 2rem;
+    max-width: 230px;
+  }
+
+  .billboard-content h1 {
+    font-size: 1.2rem;
+  }
+
+  .billboard-content p {
+    font-size: 0.8rem;
+  }
+}
