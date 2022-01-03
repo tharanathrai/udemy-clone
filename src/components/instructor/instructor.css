@@ -12,6 +12,7 @@
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
+    width: 70%;
   }
 
   .instructor-cta {
@@ -20,6 +21,7 @@
     margin: auto;
     vertical-align: middle;
     position: relative;
+    width: 70%;
   }
 
   .instructor-cta img {
@@ -28,7 +30,7 @@
   }
 
   .instructor-cta:first-child {
-    margin-left: 100px;
+    margin-left: 0px;
   }
 }
 

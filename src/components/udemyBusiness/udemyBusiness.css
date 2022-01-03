@@ -11,16 +11,17 @@
     flex-flow: column wrap;
     flex-direction: column-reverse;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 0px;
     text-align: center;
+    width: 73%;
   }
 
   .business-cta {
-    width: 100%;
     margin: auto;
     vertical-align: middle;
     position: relative;
     text-align: center;
+    width: 73%;
   }
 
   .business-cta img {
@@ -34,7 +35,7 @@
   }
 
   .business-cta:first-child {
-    margin-left: 120px;
+    margin-left: 20px;
   }
 }
 

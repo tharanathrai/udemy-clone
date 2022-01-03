@@ -7,6 +7,9 @@
   color: #fff;
 }
 
+@media (max-width: 400px) {
+}
+
 .links-and-language-selector {
   padding: 0;
   display: flex;
@@ -93,4 +96,21 @@
 .copyright-container {
   font-weight: 400;
   font-size: 0.8rem;
+}
+
+@media (max-width: 770px) {
+  .footer-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 73%;
+  }
+
+  .links-and-language-selector {
+    display: flex;
+    flex-direction: column wrap;
+  }
+
+  .unstyled-list a {
+    font-size: 0.8rem;
+  }
 }

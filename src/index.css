@@ -20,13 +20,14 @@ div {
   visibility: hidden;
 }
 
-.rec.rec-arrow:hover {
+.rec.rec-arrow-left:hover:enabled,
+.rec.rec-arrow-right:hover:enabled {
   color: white;
   background-color: black;
   cursor: pointer;
 }
 
-.rec.rec-arrow:active {
+.rec.rec-arrow:active:enabled {
   color: white;
   background-color: black;
   cursor: pointer;
@@ -41,4 +42,13 @@ div {
 .rec.rec-arrow {
   color: white;
   background-color: #1c1d1f;
+}
+
+@media (max-width: 770px) {
+  .rec.rec-arrow {
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+    left: -200px;
+  }
 }
