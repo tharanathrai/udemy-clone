@@ -171,3 +171,15 @@
     display: no;
   }
 }
+
+@media (max-width: 400px) {
+  .tab-nav-wrapper {
+    width: 150%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tab-nav-metadata {
+    width: 150%;
+  }
+}

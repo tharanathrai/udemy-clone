@@ -84,3 +84,13 @@
     font-size: 0.8rem;
   }
 }
+
+@media (max-width: 400px) {
+  .billboard-container {
+    width: 210%;
+  }
+
+  .billboard-image {
+    width: 3000px;
+  }
+}

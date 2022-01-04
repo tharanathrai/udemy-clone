@@ -95,3 +95,11 @@
     padding-left: 10px;
   }
 }
+
+@media (max-width: 400px) {
+  .topics {
+    width: 150%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

@@ -7,9 +7,6 @@
   color: #fff;
 }
 
-@media (max-width: 400px) {
-}
-
 .links-and-language-selector {
   padding: 0;
   display: flex;
@@ -112,5 +109,14 @@
 
   .unstyled-list a {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-section {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+    width: 154%;
   }
 }

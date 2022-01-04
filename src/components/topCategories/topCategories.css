@@ -64,3 +64,15 @@
     display: block;
   }
 }
+
+@media (max-width: 400px) {
+  .categories {
+    width: 150%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .category-row h4 {
+    max-width: 60px;
+  }
+}
